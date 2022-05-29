@@ -2,7 +2,7 @@ const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const entryPoint = "script"
 module.exports = {
-    entry: `./js/${entryPoint}.js`,
+    entry: `./src/js/${entryPoint}.js`,
     devtool: 'source-map',
     output: {
         filename: 'main.bundle.js',
