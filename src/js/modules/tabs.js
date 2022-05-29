@@ -1,6 +1,6 @@
 function tabsModule() {
     const containers = document.querySelectorAll(".container"),
-        MODAL_CLOSE_DURATION = 1000,
+        
         tabs = document.querySelectorAll(".info-header-tab"),
         info = document.querySelector(".info-header"),
         tabContent = document.querySelectorAll(".info-tabcontent");

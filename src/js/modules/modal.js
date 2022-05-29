@@ -1,6 +1,6 @@
 function modalModule() {
     // Modal
-
+    const MODAL_CLOSE_DURATION = 1000;
     const openModalBtn = document.querySelector(".more")
     const modal = document.querySelector(".overlay")
     const closeModalBtn = document.querySelector(".popup-close")
